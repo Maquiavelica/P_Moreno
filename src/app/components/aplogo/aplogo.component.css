@@ -1,3 +1,31 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #Logo_Argentina_Programa {
     width: 150px;
+}
+.redes{
+    margin-right: 1em;
+}
+img{
+    width: 25px;
+}
+.btn{
+    border-width: small;
+}
+/* Vista Celulares*/
+@media(max-whidth: 575px){
+.container{
+    flex-direction: column;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes img{
+    margin: 0.3em;
+}
 }
